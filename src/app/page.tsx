@@ -24,7 +24,7 @@ const TELEGRAM_URL = "https://t.me/Homi_Family_Bot?start=landing"; // ← зам
 const heroImages = [
   // Локальные изображения из папки public
   "/1.jpg",
-  "/2.jpg",
+  "/2.jpg", 
   "/3.jpg",
   "/4.jpg",
 ];
