@@ -249,13 +249,16 @@ export default function HomiLanding() {
             ))}
           </div>
 
-          <div className="mt-10 flex justify-center">
+          <div className="mt-10 flex flex-col items-center gap-3">
             <Button asChild size="lg" className="rounded-2xl h-12 px-6 text-base">
               <a href={TELEGRAM_URL} target="_blank" rel="noreferrer">
                 Хочу, чтобы семья жила без хаоса
                 <ArrowRight className="ml-2 h-5 w-5" />
               </a>
             </Button>
+            <div className="text-sm text-gray-600">
+              🔹 Уже 200+ семей пользуются Homi каждый день
+            </div>
           </div>
         </div>
       </section>
@@ -303,13 +306,16 @@ export default function HomiLanding() {
             ))}
           </div>
           
-          <div className="mt-10 flex justify-center">
+          <div className="mt-10 flex flex-col items-center gap-3">
             <Button asChild size="lg" className="rounded-2xl h-12 px-6 text-base">
               <a href={TELEGRAM_URL} target="_blank" rel="noreferrer">
                 Добавить семью в Homi за минуту
                 <ArrowRight className="ml-2 h-5 w-5" />
               </a>
             </Button>
+            <div className="text-sm text-gray-600">
+              🔹 7 из 10 мам говорят: дома стало спокойнее
+            </div>
           </div>
         </div>
       </section>
@@ -366,13 +372,16 @@ export default function HomiLanding() {
             </AccordionItem>
           </Accordion>
 
-          <div className="mt-10 flex justify-center">
+          <div className="mt-10 flex flex-col items-center gap-3">
             <Button asChild size="lg" className="rounded-2xl h-12 px-6 text-base">
               <a href={TELEGRAM_URL} target="_blank" rel="noreferrer">
                 Начать прямо сейчас 🚀
                 <ArrowRight className="ml-2 h-5 w-5" />
               </a>
             </Button>
+            <div className="text-sm text-gray-600">
+              🔹 Начать можно за 1 минуту — всё в Telegram
+            </div>
           </div>
         </div>
       </section>
