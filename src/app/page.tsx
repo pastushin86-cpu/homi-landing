@@ -180,7 +180,7 @@ export default function HomiLanding() {
                 </CardHeader>
                 <CardContent className="text-gray-700 space-y-2">
                   <p><b>Ситуация:</b> «Не хочу, чтобы наши данные гуляли по интернету».</p>
-                  <p><b>Как решает Homi:</b> минимум данных, только по делу; экспорт — по запросу; прозрачные настройки.</p>
+                  <p><b>Как решает Homi:</b> минимум данных, только по делу.</p>
                   <p className="text-sm text-gray-500">Бот в Telegram, без отдельных установок и лишних прав.</p>
                 </CardContent>
               </Card>
@@ -252,7 +252,7 @@ export default function HomiLanding() {
           <div className="mt-10 flex justify-center">
             <Button asChild size="lg" className="rounded-2xl h-12 px-6 text-base">
               <a href={TELEGRAM_URL} target="_blank" rel="noreferrer">
-                Попробовать в Telegram
+                Хочу, чтобы семья жила без хаоса
                 <ArrowRight className="ml-2 h-5 w-5" />
               </a>
             </Button>
@@ -301,6 +301,15 @@ export default function HomiLanding() {
                 </Card>
               </motion.div>
             ))}
+          </div>
+          
+          <div className="mt-10 flex justify-center">
+            <Button asChild size="lg" className="rounded-2xl h-12 px-6 text-base">
+              <a href={TELEGRAM_URL} target="_blank" rel="noreferrer">
+                Добавить семью в Homi за минуту
+                <ArrowRight className="ml-2 h-5 w-5" />
+              </a>
+            </Button>
           </div>
         </div>
       </section>
@@ -360,7 +369,7 @@ export default function HomiLanding() {
           <div className="mt-10 flex justify-center">
             <Button asChild size="lg" className="rounded-2xl h-12 px-6 text-base">
               <a href={TELEGRAM_URL} target="_blank" rel="noreferrer">
-                Попробовать в Telegram
+                Начать прямо сейчас 🚀
                 <ArrowRight className="ml-2 h-5 w-5" />
               </a>
             </Button>
