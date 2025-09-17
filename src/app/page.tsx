@@ -112,7 +112,7 @@ export default function HomiLanding() {
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             <motion.div {...fadeUp}>
-              <Card className="rounded-3xl border-rose-100">
+              <Card className="rounded-3xl border-rose-100 h-full">
                 <CardHeader>
                   <CardTitle className="flex items-center gap-2 text-xl">
                     <ShoppingCart className="h-5 w-5 text-rose-600" /> Покупки без дублей
@@ -127,7 +127,7 @@ export default function HomiLanding() {
             </motion.div>
 
             <motion.div {...fadeUp}>
-              <Card className="rounded-3xl border-rose-100">
+              <Card className="rounded-3xl border-rose-100 h-full">
                 <CardHeader>
                   <CardTitle className="flex items-center gap-2 text-xl">
                     <Calendar className="h-5 w-5 text-rose-600" /> Общий календарь семьи
@@ -142,7 +142,7 @@ export default function HomiLanding() {
             </motion.div>
 
             <motion.div {...fadeUp}>
-              <Card className="rounded-3xl border-rose-100">
+              <Card className="rounded-3xl border-rose-100 h-full">
                 <CardHeader>
                   <CardTitle className="flex items-center gap-2 text-xl">
                     <Bell className="h-5 w-5 text-rose-600" /> Утренний дайджест
@@ -157,7 +157,7 @@ export default function HomiLanding() {
             </motion.div>
 
             <motion.div {...fadeUp}>
-              <Card className="rounded-3xl border-rose-100">
+              <Card className="rounded-3xl border-rose-100 h-full">
                 <CardHeader>
                   <CardTitle className="flex items-center gap-2 text-xl">
                     <Users className="h-5 w-5 text-rose-600" /> Делегирование и “мы — команда”
@@ -172,7 +172,7 @@ export default function HomiLanding() {
             </motion.div>
 
             <motion.div {...fadeUp}>
-              <Card className="rounded-3xl border-rose-100">
+              <Card className="rounded-3xl border-rose-100 h-full">
                 <CardHeader>
                   <CardTitle className="flex items-center gap-2 text-xl">
                     <Shield className="h-5 w-5 text-rose-600" /> Забота о приватности
@@ -187,7 +187,7 @@ export default function HomiLanding() {
             </motion.div>
 
             <motion.div {...fadeUp}>
-              <Card className="rounded-3xl border-rose-100">
+              <Card className="rounded-3xl border-rose-100 h-full">
                 <CardHeader>
                   <CardTitle className="flex items-center gap-2 text-xl">
                     <Sparkles className="h-5 w-5 text-rose-600" /> Голос и магия ИИ
