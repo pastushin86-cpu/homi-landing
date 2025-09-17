@@ -202,13 +202,16 @@ export default function HomiLanding() {
             </motion.div>
           </div>
 
-          <div className="mt-10 flex justify-center">
+          <div className="mt-10 flex flex-col items-center gap-3">
             <Button asChild size="lg" className="rounded-2xl h-12 px-6 text-base">
               <a href={TELEGRAM_URL} target="_blank" rel="noreferrer">
-                Попробовать в Telegram
+                Хочу, чтобы семья жила без хаоса
                 <ArrowRight className="ml-2 h-5 w-5" />
               </a>
             </Button>
+            <div className="text-sm text-gray-600">
+              🔹 Уже 200+ семей пользуются Homi каждый день
+            </div>
           </div>
         </div>
       </section>
@@ -247,18 +250,6 @@ export default function HomiLanding() {
                 </Card>
               </motion.div>
             ))}
-          </div>
-
-          <div className="mt-10 flex flex-col items-center gap-3">
-            <Button asChild size="lg" className="rounded-2xl h-12 px-6 text-base">
-              <a href={TELEGRAM_URL} target="_blank" rel="noreferrer">
-                Хочу, чтобы семья жила без хаоса
-                <ArrowRight className="ml-2 h-5 w-5" />
-              </a>
-            </Button>
-            <div className="text-sm text-gray-600">
-              🔹 Уже 200+ семей пользуются Homi каждый день
-            </div>
           </div>
         </div>
       </section>
