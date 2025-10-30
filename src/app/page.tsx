@@ -387,7 +387,10 @@ export default function HomiLanding() {
             <span>Homi Family Bot</span>
             <span className="text-gray-400">— делаем из семьи команду</span>
           </div>
-          <div className="text-sm text-gray-500">© {new Date().getFullYear()} Homi. Все права защищены.</div>
+          <div className="text-sm text-gray-500 flex items-center gap-4">
+            <span>© {new Date().getFullYear()} Homi. Все права защищены.</span>
+            <a href="/privacy" className="text-gray-600 hover:text-rose-600">Политика конфиденциальности</a>
+          </div>
         </div>
       </footer>
     </div>
